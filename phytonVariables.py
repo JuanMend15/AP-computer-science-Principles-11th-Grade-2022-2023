@@ -42,3 +42,36 @@ print(c)
 age ="36"
 text="My name is Patricia ,Iam "+ age 
 print( text )
+s ="Juan  "
+t= "Carlos"
+mytxt= "hello my name is "+ s + t
+print(mytxt)
+import os
+os.system('clear')
+
+
+# Booleans ( True/0False)
+# It uses two values True Or False , It evalute any expression to true or or False ,Python then Evaluate and reiterms to a boolean 
+print(10<9)
+print(10==9)
+#1 equal means assign, 2 equals mean equal to 
+print(10<9)
+# Boolean in a condition ( and if statement )
+a=200
+b=33
+if b>a:
+  print('b is greater than a')
+else:
+  print("b is greater than a")
+  # evaluate values and variables 
+  # evaluate a string and a number , example function bool()
+print(bool("Hello"))
+print(bool(15))
+#python operators
+#examples 
+x=15
+y=2
+#print(x%y)
+print(x//y)# the floor division //rounds the result down to the nearest
+print(x**y)
+
